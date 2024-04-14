@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:initial;
+  
+
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #eff4fd;
+    
+    
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 0px;
+    align-items: center;
+    justify-content: space-between;
+    
+  
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:#7f00ff;
+}
+.detal{
+    margin-left: 8%;
+    margin-top: 5%
+}
+.detal h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+
+}
+span{
+    color: #ffde59;
+    text-decoration: solid;
+}
+.detal p{
+    color: #555;
+    line-height: 22px;
+
+}
+.detal a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    border:rgb(255,181,0) 1px solid;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 35px;
+}
+.detal a:hover{
+    background-color: rgb(255,181,0);
+
+}
+.images{
+    width: 45%;
+    height:80%;
+    position: absolute;
+    bottom:0;
+    right: 10px;
+}
+.images img{
+    height:100%;
+    position:absolute;
+    left: 50%;
+    bottom:-10px;
+    transform:translateX(-50%);
+    transition: bottom 1s, left 1s;
+
+}
+.images:hover .shape{
+    bottom: 40px;
+    }
+.images:hover .girl{
+        left: 45%;
+    }
+   
+    .skills{
+       
+        width: 514px;
+        margin: -65px auto;
+        color: #212121;
+        padding: 19px;
+        box-shadow:0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+       }
+       
+
+   .skills li{
+    list-style: none;
+    text-transform: uppercase;
+    margin: 1px 0;
+    padding: 10px;
+   }
+   .skills h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(235 218 4);
+   }
+   .skills h3{
+    margin: 5px;
+   }
+  .bar{
+    background: #353b48;
+    display: block;
+    height:20px ;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow:0 1px 3px rgba(0,0,0,0.12), o 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25.1);
+
+
+  }
+  .bar:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  .bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgb(244, 228, 4), rgb(141, 116, 5)100%);
+  }
+  .SQLPLSQL{
+    width: 92%;
+    animation:SQLPLSQL 3s ;
+  }
+  .CC{
+    width:55%;
+    animation:CC 3s;
+
+  }
+  .Html{
+    width: 90%;
+    animation:Html 3s ;
+  }
+  
+  .CSS{
+    width: 60%;
+    animation:CSS 3s;
+  }
+  
+  .JS{
+    width: 68%;
+    animation:JS 3s;
+  }
+  .OracleForms{
+    width: 65%;
+    animation:OracleForms 3s;
+  }
+  @keyframes SQLPLSQL{
+    0%{
+        width: 0%;
+    }
+    92%{
+        width: 92%;
+    }
+}
+@keyframes CC {
+    0%{
+        width: 0%;
+    }
+    55%{
+        width: 55%;
+    }
+}
+  @keyframes Html {
+    0%{
+        width: 0%;
+    }
+    90%{
+        width: 90%;
+    }
+}
+    
+  @keyframes CSS{
+    0%{
+        width: 0%;
+    }
+    60%{
+        width: 60%;
+    }
+}
+  @keyframes JS {
+    0%{
+        width: 0%;
+    }
+    68%{
+        width: 68%;
+    }
+}
+    @keyframes OracleForms{
+        0%{
+            width: 0%;
+        }
+        65%{
+            width: 65%;
+        }
+    
+  }
+  
+  .container{
+    margin: 138px 0;
+    padding: -19px;
+    background:#eff4fd;
+  }
+  .containerr p{
+    margin: 16px 0;
+    padding: -10px;
+  background: #eff4fd;
+ 
+}
+section {
+    padding: 10px 350px;
+  }
+  
+  section h2 {
+    margin: 0;
+    padding: 0;
+  
+  }
+
+.Box{
+    max-width: 500px;
+    padding: 30px;
+    margin: 0 28px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgba(163, 154, 154, 0.2);
+    box-shadow: 0 15px 20px rgba(0,0,0,0.6);
+
+}
+.Box h2{
+    text-align: Left;
+    text-transform: uppercase;
+    color:rgb(148, 150, 156);
+
+}
+
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:20px 0;
+}
+.input-box{
+    display: flex;
+    flex-wrap:wrap;
+    width:40%;
+    padding-bottom:15px;
+}
+.input-box:nth-child(2n){
+    justify-content:end;
+}
+.input-box label{
+width: 90%;
+font-weight: bold;
+color: rgb(191, 178, 3);
+margin:5px 0;
+text-transform: uppercase;
+}
+.input-box input{
+    height: 40px;
+    width: 90%;
+    padding: 0 11px;
+    border-radius: 5px;
+    border: 1px white solid;
+}
+.msg{
+    display: flex;
+    flex-wrap:wrap;
+    width:100%;
+    padding-bottom:15px;
+}
+.msg label{
+    width: 100%;
+    font-weight: bold;
+    color: rgb(191, 178, 3);
+    margin:5px 0;
+    text-transform: uppercase;
+    }
+.msg textarea{
+    height: 70px;
+    width: 100%;
+    padding: 0 225px;
+    border-radius: 5px;
+    border: 1px white solid;
+}
+
+.button-container{
+    margin:15px 0;
+   }
+.button-container button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 200px;
+    display: block;
+    font-size: 20px;
+    color:grey;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(to right,#b7d046,#bec84d,#d8f246,#d6f564, #e4f47c);
+    cursor: pointer;
+    transition: 0.3sS;
+   }
+ 
+   .button-container button:hover{
+    background-image: linear-gradient(to right,#e4f47c,#d6f564,#d8f246,#bec84d,#b7d046);
+   }
